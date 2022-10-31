@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8f1eb;
+}
+.main-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  width: 600px;
+  height: 600px;
+  border: 12px solid white;
+  border-radius: 33px;
+  background: #1e2938;
+  box-shadow: 41px 41px 82px #d3d3d3, -41px -41px 82px #ededed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-div .inner-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
+}
+.main-div .inner-div h1 {
+  color: #4bdf87;
+  font-size: 50px;
+}
+.main-div .inner-div h1 span {
+  color: white;
+}
+.main-div .inner-div p {
+  margin: 5px;
+  color: #878c92;
+}
+.main-div .inner-div button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #10b982;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+#password-show-div {
+  padding: 20px;
+  border-bottom: 4px solid white;
+  width: 90%;
+  color: white;
+}
+#password-div {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#password-div div {
+  margin: 4px;
+  background-color: #10b982;
+  padding: 20px;
+  width: 50%;
+  padding: 18px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
